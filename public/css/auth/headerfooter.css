@@ -1,0 +1,63 @@
+#headerContainer {
+	background-color:white;
+	border-bottom:3px #CB031A solid;
+	padding:10px;
+	position:relative;
+}
+
+#headerContainer #headerText {
+	vertical-align:middle;
+	line-height:12px;
+	font-size:12px;
+	padding-top:3px;
+	padding-left:10px;
+	font-weight:bold;
+}
+
+#bodyContainer {
+    height: 190px;
+    background-image: url(img/auth/header.jpg);
+    background-color: white;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#footerContainer {
+	border-top:1px #CB031A solid;
+	padding:5px 0px;
+	font-size:11pt;
+	text-align:center;
+	color:black;
+}
+
+#companyDetail {
+	padding:10px 30px;
+	padding-top:0px;
+}
+
+/*css targeted for date and username bar in the portal, expect at login screen (index.php)*/
+#dateBar {
+	z-index:1000;
+	position:absolute;
+	right:10px;
+	top:10px;
+}
+
+#nameBar {
+	z-index:1000;
+	position:absolute;
+	right:10px;
+	top:30px;
+	text-align:right;
+	background-color:white;
+	padding:1px;
+	padding-left:10px;
+	padding-right:0px;
+}
+
+#no_print {
+	background-color:white;
+	border-bottom:3px #CB031A solid;
+	padding:10px;
+	position:relative;
+}
